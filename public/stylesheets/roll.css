@@ -1,0 +1,34 @@
+#h {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 40px;
+	z-index: 1;
+	color: white;
+	background-color:rgb(21,22,24);
+}
+#hl {
+	position: absolute;
+	left: 100px;
+	top: 0px;
+	width: 250px;
+	height: 40px;
+	z-index: 3;
+	color: white;
+	background-color:rgb(21,22,24);
+}
+#hr {
+	position: absolute;
+	left: 90%;
+	top: 0px;
+	width: 190px;
+	height: 40px;
+	z-index: 3;
+	color: white;
+	background-color:rgb(21,22,24);
+}
+
+#header_logo{
+    width: 50%;
+}

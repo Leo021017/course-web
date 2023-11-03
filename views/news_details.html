@@ -1,0 +1,103 @@
+<!--
+ * @Author: Leo
+ * @Date: 2022-12-14 15:20:55
+ * @LastEditTime: 2022-12-14 18:02:39
+ * @FilePath: \world_cup\views\news_details.html
+ * @Description: Leo的一些没用的代码
+-->
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Specer Template">
+    <meta name="keywords" content="Specer, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>新闻详情</title>
+
+    <link rel="stylesheet" href="http://localhost:3000/stylesheets/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="http://localhost:3000/stylesheets/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="http://localhost:3000/stylesheets/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="http://localhost:3000/stylesheets/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="http://localhost:3000/stylesheets/style.css" type="text/css">
+
+    <link rel="stylesheet" href="http://localhost:3000/stylesheets/index.css">
+</head>
+
+<body>
+    <div id="h"></div>
+    <div id="hl"><div style="margin-top: 7px;">web课程设计</div> 
+    </div><div id="hr"><div style="margin-top: 7px;"><a href="#">联系作者</a></div></div>
+    <br>
+    <header class="header-section">
+        <div class="header__nav">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-2">
+                        <div class="logo">
+                            <a href="http://localhost:3000/"><img src="http://localhost:3000/img/m_logo.png" alt="" id="header_logo"></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="nav-menu">
+                            <ul class="main-menu">
+                                <li><a href="http://localhost:3000/">首页</a></li>
+                                <li class="active"><a href="http://localhost:3000/news">新闻</a></li>
+                                <li><a href="http://localhost:3000/schedule">赛程</a></li>
+                                <li><a href="http://localhost:3000/roll">榜单</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    
+    <section class="blog-hero-section set-bg" data-setbg="http://localhost:3000/img/hero/hero-1.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="bh-text">
+                        <h2><%= newsObj.newsName %> </h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Blog Details Hero Section End -->
+
+    <!-- Blog Details Section Begin -->
+    <section class="blog-details-section spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 left-blog-pad">
+                    <div class="bd-text">
+                        <div class="bd-title">
+                            <h4><%= newsObj.newsIntro %> </h4>
+                        </div>
+                        <div class="bd-pic">
+                            <div class="row">
+                                    <img src="http://localhost:3000/<%= newsObj.img %> " alt="">
+                            </div>
+                        </div>
+                        <div class="bd-more-title">
+                            <p><%= newsObj.news %> </p>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Js Plugins -->
+    <script src="http://localhost:3000/js/jquery-3.3.1.min.js"></script>
+    <script src="http://localhost:3000/js/bootstrap.min.js"></script>
+    <script src="http://localhost:3000/js/jquery.magnific-popup.min.js"></script>
+    <script src="http://localhost:3000/js/jquery.slicknav.js"></script>
+    <script src="http://localhost:3000/js/owl.carousel.min.js"></script>
+    <script src="http://localhost:3000/js/main.js"></script>
+</body>
+
+</html>

@@ -16,7 +16,7 @@ router.get('/',(req,res)=>{
 var connection = mysql.createConnection({    
     host     : 'localhost',      
     user     : 'root',            
-    password : 'HYC20021017.2.2',   
+    password : 'root',   
     port: '3306',                  
     database : 'worldcup'
   
